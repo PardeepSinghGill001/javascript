@@ -41,7 +41,11 @@ console.log(typeof newNumber); //prints typeof null as object
 
 
 //Reference(Non-Primitive):  (memory reference can be directly allocated) :- Arrays, Objects, Functions
-//datatype of all non primitive types is an object, say for function it is function object
+//datatype of all non primitive types is an object, say for function it is function objec t
 
 
+
+//***********************Memory**************************** */
+//Stack(used for all Primitive Types), Heap(used for all Non-Primitive Types)
+let myName = "pardeep"
 
