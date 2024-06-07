@@ -11,6 +11,7 @@ To avoid confusion, prefer using primitive strings ('...') rather than creating 
 //another way to declare string
 const gameName = new String('pardeepps')// return a string obj
 console.log(gameName[0]);
+console.log(gameName.__proto__); 
 
 console.log(gameName.toUpperCase());// did not change my original string
 console.log(gameName[0]);
@@ -25,10 +26,11 @@ const s1 = " pardeep "
 console.log(s1);
 console.log(s1.trim());
 
-
+//browser does not understand whitespcace and converts them to %20 in url encoding
 const url ="https://pardeep.com/pardeep%20singh"
 console.log(url.replace('%20','- '));
 console.log(url.includes('pardeep'));
 
-const s2="pardeep-p-s-g"
+const s2="pardeep-p-s-g"  
+//split a string into array.
 console.log(s2.split('-'));

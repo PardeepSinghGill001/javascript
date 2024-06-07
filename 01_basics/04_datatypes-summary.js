@@ -21,7 +21,7 @@ const bigNumber = 646464647578476886856674534679895787564545n
 console.log(bigNumber);
 
 
-//Arrays, Objjects, Functions
+//Arrays, Objects, Functions
 
 const heros = ["Shaktiman","Krish","Baba Baaj Singh Ji"];
 
@@ -41,7 +41,8 @@ console.log(typeof newNumber); //prints typeof null as object
 
 
 //Reference(Non-Primitive):  (memory reference can be directly allocated) :- Arrays, Objects, Functions
-//datatype of all non primitive types is an object, say for function it is function objec t
+//datatype of all non primitive types is an object, say for function it is object function 
+//console.log(typeof myfunction)    this returns a function but it is called an  object function
 
 
 
