@@ -42,6 +42,7 @@ if (true) {
 
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
+//hoisting concept
 
 
 console.log(addone(5))
@@ -52,7 +53,7 @@ function addone(num){
 
 
 
-addTwo(5)
+addTwo(5)//cannot access addTwo before initialization
 const addTwo = function(num){
     return num + 2
-}
+} 
